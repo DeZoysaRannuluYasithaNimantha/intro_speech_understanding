@@ -26,8 +26,7 @@ def extract_stories_from_NPR_text(text):
         stories.append((title, teaser))
 
     return stories
-    
-    return stories
+
     
 def read_nth_story(stories, n, filename):
     '''
