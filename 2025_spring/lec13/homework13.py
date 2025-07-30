@@ -24,9 +24,7 @@ def extract_stories_from_NPR_text(text):
         teaser = teaser_tag.get_text(strip=True) if teaser_tag else ''
 
         stories.append((title, teaser))
-
     return stories
-
     
 def read_nth_story(stories, n, filename):
     '''
